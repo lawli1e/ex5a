@@ -36,6 +36,6 @@ function calculate(p,d){
 		var pc = paceCal(pace,dist);
 	//---------------------------
 		msg = "successfully calculated!"
-		return {"status":1,"message":msg,"hour":hour,"min":min};
+		return {"status":1,"message":msg,"hour":pc.hour,"min":pc.min};
 
 }
